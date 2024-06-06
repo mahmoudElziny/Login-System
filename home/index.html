@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Home</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
+    <nav class="navbar navbar-light">
+        <div class="container">
+          <a class="navbar-brand fw-bold text-white">Smart Login</a>
+          <form class="d-flex">
+            <a href="../Login/index.html" id="logBtn" class="btn btn-outline-warning">Logout</a>
+          </form>
+        </div>
+      </nav>
+    
+      <div class="container mx-auto my-5 text-center">
+        <div class="group m-auto w-75 p-5"> 
+          <p class="fs-1">Welcome <span id="userName"></span> </p>
+        </div>
+      </div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>

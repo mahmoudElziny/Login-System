@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>SignUp</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
+    <div class="container mx-auto my-5 text-center">
+        <div class="group m-auto w-75 p-5">
+            <h1 class="text-info mb-4">Smart Login System</h1>
+            <input class="form-control mb-4" type="text" id="signName" required placeholder="Enter Your Name">
+            <input class="form-control mb-4" type="email" id="signEmail" required placeholder="Enter Your  Email">
+            <input class="form-control mb-4" type="password" id="signPassword" required
+                placeholder="Enter Your Password">
+            <div class="text-center" id="message"></div>
+            <button onclick="add()" class="btn btn-outline-info w-100">SignUp</button>
+            <p class="text-white mt-3">Don’t have an account?
+                <a class="text-white text-decoration-none" href="../Login/index.html">SignIn</a>
+            </p>
+        </div>
+    </div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
